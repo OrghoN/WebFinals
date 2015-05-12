@@ -5,6 +5,7 @@
 <head>
 	<title> Guild Wars 2 </title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../CSS/main.css">
 	<link rel="stylesheet" href="../CSS/profession.css">
@@ -14,7 +15,7 @@
 	<header> 
 		
 		<nav>
-            <h1>Ranger </h1>
+            <h1>Ranger</h1>
             <h4>
 			<span id="home"><a href="../index.html">Professions</a></span>
             <span><a href="warrior.html">Warrior</a></span>
@@ -34,11 +35,132 @@
 	
 	<img href="images/spacer.png" id="spacer">
 	
+	<article>	
+        
+        
+		<div id="left">
+		<section>
+			
+			
+			<blockquote> Rangers rely on a keen eye, a steady hand, and the power of nature itself. Unparalleled archers, rangers are capable of bringing down foes from a distance with their bows. With traps, nature spirits, and a stable of loyal pets at their command, rangers can adapt to any situation. </blockquote>
+            
+            <h2>Pets</h2>
+            <p>Rangers are accompanied by their pets, fierce animal companions who fight at their side. Rangers can have up to two pets at their call, and they can switch between the two animals during combat. Rangers can command their pets to attack specific targets, assign their pets a behavior mode, such as “passive” or “active,” and activate the special skill that is unique to each pet type. To recruit a pet, rangers charm juvenile animals in the wild such as giant flightless birds, loyal dogs, fierce monsters, and even undersea creatures like sharks.</p>
+            
+            <h2>Special Skills</h2>
+            <p> Rangers possess certain skills that set them apart from the pack</p>
+            
+            <p></p>
+            
+            <h2>Traps</h2>
+            <p>Rangers can punish enemies who dare to approach them with traps, skills that are placed on the ground nearby. Traps remain active as long as rangers stay nearby or until an enemy triggers it. For example, Spike Trap cripples and bleeds opponents that pass through it.</p>
+            
+            <h2>Spirits</h2>
+            <p>Rangers can summon spirits of nature to their side during a battle. These powerful spirits influence the area around it. For example, Sun Spirit grants any allied attacks within range a 20% chance to cause burning.</p>
+		</section>
+            
+        <section>
+			<h3> Weapons </h3>
+            
+            <table class="weapons">
+                <thead>
+                    <tr>
+                        <th class="location">Main Hand</th>
+                        <th class="location">Off Hand</th>
+                        <th class="location">Two-Handed</th>
+                        <th class="location">Aquatic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td role="img" aria-label="Axe" class="weapon axe">
+                            Axe            </td>
+                        <td role="img" aria-label="Axe" class="weapon axe">
+                            Axe            </td>
+                        <td role="img" aria-label="Greatsword" class="weapon greatsword">
+                            Greatsword            </td>
+                        <td role="img" aria-label="Harpoon Gun" class="weapon harpoon-gun">
+                            Harpoon Gun            </td>
+                    </tr>
+                    <tr>
+                        <td role="img" aria-label="Sword" class="weapon sword">
+                            Sword            </td>
+                        <td role="img" aria-label="Dagger" class="weapon dagger">
+                            Dagger            </td>
+                        <td role="img" aria-label="Longbow" class="weapon longbow">
+                            Longbow            </td>
+                        <td role="img" aria-label="Spear" class="weapon spear">
+                            Spear            </td>
+                    </tr>
+                    <tr>
+                        <td role="img" aria-label="" class="weapon">
+                            </td>
+                        <td role="img" aria-label="Torch" class="weapon torch">
+                            Torch            </td>
+                        <td role="img" aria-label="Shortbow" class="weapon shortbow">
+                            Shortbow            </td>
+                        <td role="img" aria-label="" class="weapon">
+                            </td>
+                    </tr>
+                    <tr>
+                        <td role="img" aria-label="" class="weapon">
+                            </td>
+                        <td role="img" aria-label="Warhorn" class="weapon warhorn">
+                            Warhorn            </td>
+                        <td role="img" aria-label="" class="weapon">
+                            </td>
+                        <td role="img" aria-label="" class="weapon">
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+		    
+		</section>
+            
+            <div class="form-style contact">
+                <h2>Contact me</h2>
+                <form>
+                    <input type="text" name="field1" placeholder="Full Name" />
+                    <input type="email" name="field2" placeholder="Email" />
+                    <input type="url" name="field3" placeholder="Website" />
+                    <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+                    <input type="button" value="Send Message" />
+                </form>
+            </div>
+        
+        
+		</div>
+        
+
+		
+		<aside>
+		<h3> Skill Videos </h3>
+		<iframe width="90%" height="315" src="https://www.youtube.com/embed/fe_IOkSQApg" frameborder="0" allowfullscreen></iframe>
+		<iframe width="90%" height="315" src="https://www.youtube.com/embed/oYK9BOyz2vU" frameborder="0" allowfullscreen></iframe>
+		<iframe width="90%" height="315" src="https://www.youtube.com/embed/l_Roc5LxGJw" frameborder="0" allowfullscreen></iframe>
+		<iframe width="90%" height="315" src="https://www.youtube.com/embed/G6Pwc09ye8o" frameborder="0" allowfullscreen></iframe>
+		</aside>
+	
+    
+        
+
+	</article>
+	
+    
+	
 	<img href="images/spacer.png" id="spacer2">
 	<footer>
 	<span>Developed By <a href="https://twitter.com/OrghoN" target="_blank">Orgho Anoyonyo Neogi</a></span>
 	</footer>
 	
+    <!--Alll scripts go here-->
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+                                    h.style.height = "20px";
+                                    h.style.height = (h.scrollHeight)+"px";
+                                    }
+    </script>
 </body>
 
 </html>
